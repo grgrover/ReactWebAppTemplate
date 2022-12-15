@@ -12,11 +12,18 @@ File template for rapid React web application development utilizing Vite.
 
 ## To Initiate Developement
 
+Please navigate to .../ReactWebAppTemplate/webAppTemplate
 ```
-  npm install
+  npm install 
+ ```
+Then initialize the Vite client.
+ 
+ ```
   npm run dev
-  npm run server
-  
 ```
+Create a .env file using example.env and fill out the desired PORT for the Express server. 
 
-
+Then start the Express server in a separate terminal.
+```
+  npm run server
+```
