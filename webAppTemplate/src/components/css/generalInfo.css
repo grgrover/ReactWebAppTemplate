@@ -1,0 +1,10 @@
+.demographics {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: bold;
+  width: 50%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
