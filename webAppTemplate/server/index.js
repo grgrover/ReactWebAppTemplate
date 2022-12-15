@@ -9,10 +9,11 @@ app.use(cors())
 app.use(express.json());
 
 app.get('/', (req, res) => {
-
 })
 
 app.post('/', (req, res) => {
+  console.log(req.body)
+  res.sendStatus(201)
 
 })
 
